@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgb(176, 29, 29, .3);
+  position: fixed;
+  width: 99%;
+ background: rgb(36, 35, 35);
+}
+
+ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  padding-top: 120px;
+}
+.meine-aufgabe {
+  padding-right: 7rem;
+  padding-left: 1rem;
+  box-shadow: 5px -5px 15px 6px rgba(0, 0, 0, 0.1);
+}
+
+.aufgabe-eingabe {
+    padding: 1rem 0;
+    margin-top: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-top: 1px solid #044a43;
+  border-bottom: 1px solid #044a43;
+}
+
+.auswahl-btn{
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.to-do-div {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  padding-left: 6rem;
+
+  border-bottom: 1px solid #044a43;
+}
+.to-do-div div {
+  font-size: 1.2rem;
+}
+
+.zitat-container{
+ position: fixed;
+  left: 0;
+  top: 55%;
+  width: 400px; 
+  padding: 20px;
+  border-left: 2px solid #ccc;
+  margin-left: .5rem;
+  padding-left: 1rem;
+
+}
